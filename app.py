@@ -8,7 +8,7 @@ ROOT_DIR = os.path.abspath("../../")
 sys.path.append(ROOT_DIR)  # To find local version of the library
 
 
-from Food_Mask_RCNN.samples.food_mask import food
+from samples.food_mask import food
 import mrcnn.model as modellib
 from mrcnn import utils
 from mrcnn import visualize
@@ -26,7 +26,6 @@ from tensorflow.python.keras.backend import set_session
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
-ROOT_DIR = os.path.join(ROOT_DIR, "Food_Mask_RCNN")
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 config = food.FoodConfig()
 FOOD_DIR = os.path.join(ROOT_DIR, "datasets/food")

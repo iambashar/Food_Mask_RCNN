@@ -21,7 +21,7 @@ import skimage.draw
 from pathlib import Path
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../Food_Mask_RCNN/")
+ROOT_DIR = os.path.abspath("../../")
 
 sys.path.append(ROOT_DIR)  # To find local version of the library
 from mrcnn.config import Config
