@@ -26,7 +26,7 @@ from tensorflow.python.keras.backend import set_session
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
-MODEL_DIR = os.path.join(ROOT_DIR, "build/repo")
+ROOT_DIR = os.path.join(ROOT_DIR, "build/repo")
 MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 config = food.FoodConfig()
 FOOD_DIR = os.path.join(ROOT_DIR, "datasets/food")
