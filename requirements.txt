@@ -8,5 +8,3 @@ tensorflow
 keras==2.0.8
 flask
 h5py
-imgaug
-IPython[all]
