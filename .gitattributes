@@ -1,0 +1,2 @@
+model_044.h5 filter=lfs diff=lfs merge=lfs -text
+logs/model_044.h5 filter=lfs diff=lfs merge=lfs -text
